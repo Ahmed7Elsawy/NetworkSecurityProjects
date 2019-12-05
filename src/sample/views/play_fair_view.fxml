@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  prefHeight="470.0" prefWidth="826.0"   stylesheets="/sample/css/stylesheet.css" styleClass="contentPane"  xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.PlayFairController">
+
+   <children>
+
+      <AnchorPane>
+         <children>
+            <TextField fx:id="textField" promptText="message" layoutY="22.0" prefHeight="38.0" prefWidth="507.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="22.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+
+      <AnchorPane>
+         <children>
+            <Button fx:id="encryptButton" contentDisplay="CENTER" layoutX="117.0" prefHeight="26.0" prefWidth="100.0" styleClass="yellowButton"  text="encrypt" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="117.0" AnchorPane.topAnchor="20.0" >
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="decryptButton" contentDisplay="CENTER" layoutX="304.0" prefHeight="26.0" prefWidth="100.0" styleClass="yellowButton" text="decrypt" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="304.0" AnchorPane.topAnchor="20.0" >
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+
+      <AnchorPane>
+         <children>
+
+            <Label fx:id="headerLabel" visible="false" prefHeight="50.0" prefWidth="560.0" text="encrypted text: " AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+
+            <Label fx:id="encryptedLabel" layoutX="184.0" prefHeight="50.0" prefWidth="343.0"  AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="184.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+
+   </children>
+</VBox>
