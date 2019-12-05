@@ -16,7 +16,7 @@ public class MainController {
     public JFXButton FeistelButton;
     public JFXButton DESButton;
     public JFXButton RC4Button;
-    public JFXButton RCaButton;
+    public JFXButton RSAButton;
 
     Parent fxml;
 
@@ -30,7 +30,7 @@ public class MainController {
         FeistelButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/feistel_view.fxml", "Feistel Algorithm"));
         DESButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/des_view.fxml", "DES Algorithm"));
         RC4Button.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/rc4_view.fxml", "RC4 Algorithm"));
-        RCaButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/des_view.fxml", "DES Algorithm"));
+        RSAButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/des_view.fxml", "DES Algorithm"));
 
     }
 
