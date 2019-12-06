@@ -62,7 +62,6 @@ public class RSACipher {
 
     /* Iterative Function to calculate    (x^y)%p in O(log y) */
     int power(int x, int y, int p) {
-        System.out.println(x + "  ==  " + y + "  ==  " + p);
         // Initialize result
         int res = 1;
 
@@ -70,8 +69,6 @@ public class RSACipher {
         x = x % p;
 
         while (y > 0) {
-            System.out.println(x + " " + y + " " + res);
-
             // If y is odd, multiply x with result
             if ((y & 1) == 1)
                 res = (res * x) % p;
