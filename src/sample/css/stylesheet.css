@@ -10,7 +10,8 @@
     -fx-background-color: #B20837;
 }
 .yellowButton {
-    -fx-background-color: #FFCD46;
+    /*-fx-background-color: #22A4DA;*/
+    -fx-background-color: #D68900;
     -fx-text-fill: #FFFFFF;
     -fx-background-radius: 20;
 }
