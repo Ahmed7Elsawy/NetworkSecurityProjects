@@ -30,7 +30,7 @@ public class MainController {
         FeistelButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/feistel_view.fxml", "Feistel Algorithm"));
         DESButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/des_view.fxml", "DES Algorithm"));
         RC4Button.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/rc4_view.fxml", "RC4 Algorithm"));
-        RSAButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/des_view.fxml", "DES Algorithm"));
+        RSAButton.setOnMouseClicked(mouseEvent -> putContentArea("/sample/views/rsa_view.fxml", "RSA Algorithm"));
 
     }
 
